@@ -56,7 +56,7 @@ export default function LoginPage() {
         email: response.email,
       });
 
-      router.push("/home")
+      router.push("/dashboard")
     } catch (err: any) {
       const errorMessage =
         err.response?.data?.message ||
